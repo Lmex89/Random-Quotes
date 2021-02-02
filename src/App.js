@@ -37,10 +37,7 @@ const Card = () => {
         <
         div className = "social-media" >
         <
-        a href = "#"
-        id = "tweet-quote" >
-        <
-        /a> < /
+        /
         div > <
         button onClick = { handleClick }
         id = "new-quote" >
