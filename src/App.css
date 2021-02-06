@@ -7,15 +7,11 @@
 
 body {
     font-family: 'Nunito', sans-serif;
-    background: #09ff00;
+    background: #71319b;
 }
 
 .App {
-    background: #09ff00;
-}
-
-.darkMode .App {
-    background: #000;
+    background: #71319b;
 }
 
 #quote-box {

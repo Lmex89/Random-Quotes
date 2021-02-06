@@ -1,5 +1,7 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
 import React, {useState} from 'react';
 import './App.css';
+
 
 const Example = {
   quote : "Carpe Diem",
@@ -25,7 +27,8 @@ const Card = () => {
 
 
   return (
-    <div className="card" id="quote-box">
+    <div className="card col-md-6" id="quote-box">
+      <div className= "card-body">
       <div id="text">
         <h2> {quote} </h2>{' '}
       </div>{' '}
@@ -33,11 +36,13 @@ const Card = () => {
         <p> {author} </p>{' '}
       </div>{' '}
       <div id="buttons">
-        <div className="social-media"> </div>{' '}
+        <div className="social-media"> 
         <button onClick={handleClick} id="new-quote">
           New Quote{' '}
         </button>{' '}
       </div>{' '}
+      </div>
+    </div>
     </div>
   );
 };
