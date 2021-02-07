@@ -27,7 +27,7 @@ const Card = () => {
 
 
   return (
-    <div className="card col-6 col-sm-6 d-flex justify-content-center" id="quote-box">
+    <div className="card col-12 col-sm-8 col-md-6 d-flex justify-content-center" id="quote-box">
       <div className= "card-body">
       <div id="text">
         <h2> {quote} </h2>{' '}
